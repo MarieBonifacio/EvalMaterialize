@@ -1,0 +1,20 @@
+*{
+    overflow: unset;
+}
+
+.container, .row, .container .row{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: none;
+}
+
+span{
+    color:#DD1952;
+}
+.flex-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

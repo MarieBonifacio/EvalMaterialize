@@ -1,0 +1,112 @@
+#desc{
+    p{  
+        font-size: .8rem;
+        // line-height: 0.6rem;
+        color:#75797B;
+    }
+    .image{
+        text-align: center;
+        .back1{
+            width:200px; 
+            position: relative; 
+            top:30px; 
+            right:-20px; 
+            z-index:2;
+            -webkit-box-shadow: 1px 36px 44px -5px rgba(0,0,0,0.54);
+            -moz-box-shadow: 1px 36px 44px -5px rgba(0,0,0,0.54);
+            box-shadow: 1px 36px 44px -5px rgba(0,0,0,0.54);
+        }
+        .front1{
+            width:200px; 
+            width:200px; 
+            position: absolute;
+            top:0px; 
+            right:100px; 
+            z-index:1;
+            -webkit-box-shadow: 1px 36px 44px -5px rgba(0,0,0,0.54);
+            -moz-box-shadow: 1px 36px 44px -5px rgba(0,0,0,0.54);
+            box-shadow: 1px 36px 44px -5px rgba(0,0,0,0.54);
+        }
+        .back2{
+            width:200px; 
+            position: relative; 
+            top:30px; 
+            left:-20px; 
+            z-index:2;
+            -webkit-box-shadow: 1px 36px 44px -5px rgba(0,0,0,0.54);
+            -moz-box-shadow: 1px 36px 44px -5px rgba(0,0,0,0.54);
+            box-shadow: 1px 36px 44px -5px rgba(0,0,0,0.54);
+        }
+        .front2{
+            width:200px; 
+            position: 
+            absolute; 
+            top:0px; 
+            left:100px; 
+            z-index:1;
+            -webkit-box-shadow: 1px 36px 44px -5px rgba(0,0,0,0.54);
+            -moz-box-shadow: 1px 36px 44px -5px rgba(0,0,0,0.54);
+            box-shadow: 1px 36px 44px -5px rgba(0,0,0,0.54);
+        }
+    }
+}
+
+
+@media screen and (min-width: 640px) {
+
+    #desc{
+        margin-left: 10vw;
+        margin-top: 20vh;
+
+        .row{
+            margin-bottom:150px;
+        }
+
+       
+       
+        .text{
+            margin: 100px;
+            width: 700px; 
+            p{
+            font-size: var(--pText);
+            }
+             h3{
+            font-size: var(--headingText);
+            }
+
+        }
+        .image{
+            height: 700px;
+            .back1{
+                width:400px; 
+                position: relative; 
+                top:30px; 
+                right:-20px; 
+                z-index:2;
+            }
+            .front1{
+                width:400px;  
+                position: absolute;
+                top:0px; 
+                right:100px; 
+                z-index:1;
+            }
+            .back2{
+                width:400px; 
+                position: relative; 
+                top:30px; 
+                left:-20px; 
+                z-index:2;
+            }
+            .front2{
+                width:400px; 
+                position: 
+                absolute; 
+                top:0px; 
+                left:100px; 
+                z-index:1;
+            }
+        }
+    }
+
+}

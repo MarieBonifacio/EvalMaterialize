@@ -1,0 +1,18 @@
+footer.page-footer{
+    background-color: white;
+    color: var(--blackText);
+}
+footer, .page-footer{
+    display:flex;
+    div{
+        background-color: white;
+        ul{
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+    select{
+        width: 100px;
+        background-color: white;
+    }
+}
